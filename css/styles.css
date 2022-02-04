@@ -830,6 +830,9 @@ footer {
   clip-path: inset(50%);
   margin: -1px;
 }
+.checkbox-agreement:focus + .icon-chek {
+  border: 2px solid #2196f3;
+}
 .icon-chek {
   border-radius: 2px;
   border: 2px solid #212121;
