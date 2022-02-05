@@ -724,6 +724,7 @@ footer {
   transition: transform var(--time-duration) var(--cubik);
   width: 528px;
   height: 581px;
+  padding: 40px;
   background-color: var(--hedercolor);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -748,9 +749,6 @@ footer {
 .close-icon:hover {
   fill: var(--activecolor);
 }
-.form-contact-us {
-  margin: 40px;
-}
 
 .form-title {
   margin-bottom: 12px;
@@ -758,8 +756,12 @@ footer {
   line-height: calc(23 / 20);
   text-align: center;
   color: var(--headtext);
+  font-weight: 700;
+  letter-spacing: 0.03em;
 }
-
+.form-list-contact {
+  margin-bottom: 20px;
+}
 .form-list-contact li + li {
   margin-top: 10px;
 }
@@ -816,7 +818,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
 }
 .checkbox-agreement {
   position: absolute;
